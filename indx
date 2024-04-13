@@ -1,4 +1,4 @@
-<html>
+ <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   
@@ -49,6 +49,7 @@
         text-decoration: none;
         padding: 10px;
         color: white; 
+        border-radius: 8px;
       }
   
       /*Section-hero*/
@@ -115,10 +116,13 @@
         margin-top: 50px;
       }
         /*Section-main*/
-        .section-main{
-          width: 100%;
-          height: 500px;
-          background-color: #0B60B0; 
+        .section-main {
+        width: 100%;
+        height: 300px;
+        background-color: #0B60B0;
+        display: flex; /* Enable flexbox layout */
+        flex-direction: column;
+        align-items:center;
         }
         .section-main h1 {
           padding-top: 20px;
@@ -138,11 +142,26 @@
           .section-main img {
           width: 60px;
           height: 60px;
-          padding-left: 47%;
-          padding-top: 8px;
+          display:column; 
           color: white;
+          padding-top: 10px;
+        }
+        /*section-question*/
+        .section-question{
+          width: 100%;
+          height: 400px;
+          background-color: #0B60B0;
+          display:flex;
+           
+          flex-direction: column;
+          
+          
         }
 
+        .section-question judul h3 {
+          text-align: center; 
+          align-items: center;
+        }
         span{
           color: coral; 
         }
@@ -164,7 +183,9 @@
       <h1 class="logo">Fa</h1>
       <ul>
         <li><a href= "#service">Service</a></li>
-        <li><a href="mailto:farhandillavers43@gmail.com">Portofolio</a></li>
+        <li><a href="#">Portofolio</a></li>
+        <li><a href="#">Q&E, ask me</a></li>
+
       </ul>
     </nav>
     <div class="section-hero">
@@ -177,9 +198,22 @@
     <div class="section-main" id="service">
         <h1>Service</h1>
          <img src="service.svg" alt="">
-         <p>Menawarkan jasa pembuatan Twibone & idcard untuk event kantor dan sekolah </p>
+         <p>Menawarkan jasa pembuatan Twibone & idcard untuk event kantor dan sekolah </p> 
          <img src="penulis.svg" alt="">
          <p>Anda memiliki pekerjaan laporan perjalanan studytour, kami siap membantu</p> 
+    </div>
+    <div class="section-question">
+        <div class="judul">
+          <h3>ada pertanyaan</h3>
+        </div>
+        <div class="form">
+      <h3>Ada pertanyaan</h3>
+        <input type="text">
+        <h3>Ada pertanyaan</h3>
+        <input type="text">
+        <h3>Ada pertanyaan</h3>
+        <input type="text">
+        </div>
     </div>
     <footer>
       <h3>Farhandillavers43@gmail.com</h3>

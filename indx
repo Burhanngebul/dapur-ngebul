@@ -180,14 +180,17 @@
 	    text-align: center;
 	    font-weight: 900;
 	  }
-    .section-question button {
-      height: 35px;
-      margin-top:15px;
-      width: 90px;
-      font-size 25px
-      border: none;
-      border-radius: 8px;
-    }
+     		.section-question button {
+			height: 35px;
+			margin-top: 15px;
+			width: 90px;
+			font-size: 19;
+			font-weight: 450px;
+			border-radius: 8px;
+			border: none;
+			font-family: montsserat;
+			color: ;
+		}
     .section-question button:hover{
       background-color:#E9A0FF;
     }

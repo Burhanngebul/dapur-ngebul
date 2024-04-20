@@ -66,7 +66,6 @@
 	    padding-top: 10%;
 	    margin-left: 20%;
 	    font-size: 20px;
-	
 	    color: white;
 	  }
 	
@@ -88,7 +87,7 @@
 	    background-color: #74E291;
 	    border: none;
 	    border-radius: 10px;
-	    margin-top: 25px;
+	    margin-top: 25px	;
 	    cursor: pointer;
 	    color: white;
 	    box-shadow: 16px;
@@ -103,7 +102,7 @@
 	    font-size: 15px;
 	    padding-left: 20%;
 	    padding-top: 20px;
-	    font-size: 16px;
+	    font-size: 20px;
 	    color: white;
 	  }
 	  .section-hero img {
@@ -121,7 +120,6 @@
 	    height: 300px;
 	    background-color: #0B60B0;
 	    display: flex;
-	    /* Enable flexbox layout */
 	    flex-direction: column;
 	    align-items: center;
 	  }
@@ -146,6 +144,34 @@
 	    display: column;
 	    color: white;
 	    padding-top: 10px;
+	  }
+
+	  /*Section-portofolio*/
+	  .section-portofolio{
+		  width: 100%;
+		  height: 350px;
+		  background-color: #0B60B0;
+		  font-family: montserrat;
+		  align-items: center;
+	  }
+	.section-portofolio h1{
+		text-align: center;
+		color: whitesmoke;
+	  }
+	  .section-portofolio .content{
+		  display: flex;
+		  gap: 10px;
+	  }
+	  .section-portofolio .card-one{
+		  background-color:white;
+		  display: flex;
+	  }
+	  .section-portofolio img {
+		width: 60;	   
+		  height: 90px;
+	  }
+	  .section-portofolio .card-two{
+		  background-color: white;
 	  }
 	  /*section-question*/
 	  .section-question {
@@ -224,16 +250,20 @@
 	
 	</ul>
 	</nav>
+
+	<!--Hero-->
 	<div class="section-hero">
 	<img src="farhan.png" alt="">
 	<h1>Hallo ini saya</h1>
 	<p class="name">
 	Catur Khoirun Farhan
 	</p>
+	<h3>Saya merupakan seorang Fresh graduate yang memiliki beberapa keahlian terkait kemampuan yang saya tekuni.
+	<span> Untuk itu silahkan chat saya di bawah ini</span> mari tanyakan terkait apa yang anda butuhkan.</h3>
 	<button class="btn-cta" onclick="redirWhatsapp()">Hubungi</button>
-	<h3>Saya merupakan seorang Fresh graduate yang memiliki beberapa keahlian terkait kemampuan yang saya tekuni, 
-	<span> untuk terkait yang saya tawarkan</span> mari tanyakan terkait apa yang anda butuhkan.</h3>
 	</div>
+
+	<!--service-->
 	<div class="section-main" id="service">
 	<h1>Service</h1>
 	<img src="service.svg" alt="">
@@ -245,10 +275,38 @@
 	Anda memiliki pekerjaan laporan perjalanan studytour, kami siap membantu
 	</p>
 	</div>
+
+	<!--portofolio-->
+	<div class="section-portofolio">
+		<h1>My portofolio</h1>
+<div class="content">
+		<div class="card-one">
+		<img src="poster donor darah.PNG" alt="" class="1" >
+		<div class="content">
+		<h3>Lorem</h3>
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>	
+		</div>  
+		</div>
+
+		<div class="card-two">
+			<img src="poster donor darah.PNG" alt="" class="1" >
+			<div class="content">
+			<h3>Lorem</h3>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>	
+			</div>  
+			</div>
+		 
+		 
+	</div>
+</div>
+	<!--Contac Us-->
 	<div class="section-question">
 	<div class="judul">
 	<h1>Informasi lebih lanjut</h1>
 	</div>
+	
 	<!--<div class="form">
 	<h3>Pertanyaan</h3>
 	<input type="text" placeholder="Tanyain aja sekarang">
@@ -261,6 +319,8 @@
 	<!--<button class="btn-submit>Contac me</button>
 	
 	</div>
+	
+	<!--Footer-->
 	<footer>
 	<h3>Farhandillavers43@gmail.com</h3>
 	</footer>
@@ -269,9 +329,6 @@
 	function redirWhatsapp() {
 	window.location.href = "https://wa.me/089677982700"
 	}
-
-	//function sendEmail() {
-    	//window.location.href = 'mailto:farhandillavers43@gmail.com';
-  	}
+  	</script>
 	</body>
 	</html>

@@ -34,7 +34,7 @@
   background-color: #0B60B0;
   }
   nav ul {
-  ) list-style: none;
+ list-style: none;
   display: flex;
   }
   nav li a:hover {
@@ -149,20 +149,21 @@
   height: 350px;
   background-color: #0B60B0;
   font-family: montserrat;
-  align-items: center;
   }
   .section-portofolio h1{
   text-align: center;
   color: whitesmoke;
+  display: fixed;
   }
-  .section-portofolio .content{
-  display: flex;
-  gap: 50px;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 10px;
+	.section-portofolio .card{
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  gap: 10px;
+	}
+.section-portofolio .content{
+	   text-align: center;
   }
-section-portofolio
   .section-portofolio img {
   width: 90px;
   height: 90px;
@@ -173,8 +174,9 @@ section-portofolio
   border-radius: 10px;
   }
   .section-portofolio .card-one:hover{
-    height: 80px;
+	transform: scale(1.4);
     transition: smooth;
+
   }  
   .section-portofolio .card-two{
   background-color: white;
@@ -299,27 +301,45 @@ section-portofolio
 	<!--portofolio-->
 	<div class="section-portofolio">
 		<h1>My portofolio</h1>
-<div class="content">
+	<div class="card">
 		<div class="card-one">
-		<img src="poster donor darah.PNG" alt="" class="1" >
+		<img src="" alt="" class="1" >
 		<div class="content">
 		<h3>Lorem</h3>
 		<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>	
+		Lorem ipsum dolor sit amet, </p>	
 		</div>  
 		</div>
 
 		<div class="card-two">
-			<img src="poster donor darah.PNG" alt="" class="1" >
+			<img src="" alt="" class="1" >
 			<div class="content">
 			<h3>Lorem</h3>
 			<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>	
+			Lorem ipsum dolor sit amet, </p>	
 			</div>  
 			</div>
+
+			<!--<div class="card-three">
+				<img src="" alt="" class="1" >
+				<div class="content">
+				<h3>Lorem</h3>
+				<p>
+				Lorem ipsum dolor sit amet, </p>	
+				</div>  
+				</div>-->
+
+				<!--<div class="card-four">
+					<img src="" alt="" class="1" >
+					<div class="content">
+					<h3>Lorem</h3>
+					<p>
+					Lorem ipsum dolor sit amet, </p>	
+					</div>  
+					</div>-->
+		 </div>
 		 
-		 
-	</div>
+	 
 </div>
 	<!--Contac Us-->
 	<div class="section-question">
